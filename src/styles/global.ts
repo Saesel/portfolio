@@ -46,6 +46,11 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 600;
   }
 
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
   button {
     cursor: pointer;
   }
@@ -57,5 +62,9 @@ export const GlobalStyle = createGlobalStyle`
 
   ::selection {
     user-select: none;
+  }
+
+  img {
+    display: block;
   }
 `;

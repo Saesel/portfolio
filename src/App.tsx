@@ -1,6 +1,10 @@
+import { About } from "./components/About";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { MouseScroll } from "./components/MouseScroll";
+import { Projects } from "./components/Projects";
+import { Skills } from "./components/Skills";
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
@@ -9,6 +13,10 @@ export function App() {
       <Header />
       <Hero />
       <MouseScroll />
+      <About />
+      <Projects />
+      <Skills />
+      <Footer />
       <GlobalStyle />
     </>
   );

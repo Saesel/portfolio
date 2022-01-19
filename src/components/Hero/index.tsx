@@ -34,7 +34,7 @@ export function Hero() {
         <Typewriter
           options={{ delay: 75 }}
           onInit={(typewriter) =>
-            typewriter.typeString(`Desenvolvedor Front-End`).start()
+            typewriter.typeString(`Desenvolvedor Front-End.`).start()
           }
         />
         <Buttons>
