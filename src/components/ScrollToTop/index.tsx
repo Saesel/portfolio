@@ -6,7 +6,7 @@ export function ScrollToTop() {
   const [visible, setVisible] = useState(false);
 
   const toggleVisible = () => {
-    const scrolled = document.documentElement.scrollTop;
+    const scrolled: number = document.documentElement.scrollTop;
 
     if (scrolled > 100) {
       setVisible(true);

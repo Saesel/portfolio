@@ -11,10 +11,6 @@ export const Button = styled.img`
   transition: all 200ms ease;
   z-index: 3;
 
-  .showButton {
-    opacity: 1;
-  }
-
   :hover {
     background-color: #1e1e1e;
   }
