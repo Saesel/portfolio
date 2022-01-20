@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { MouseScroll } from "./components/MouseScroll";
 import { Projects } from "./components/Projects";
+import { ScrollToTop } from "./components/ScrollToTop";
 import { Skills } from "./components/Skills";
 import { GlobalStyle } from "./styles/global";
 
@@ -17,6 +18,7 @@ export function App() {
       <Projects />
       <Skills />
       <Footer />
+      <ScrollToTop />
       <GlobalStyle />
     </>
   );
