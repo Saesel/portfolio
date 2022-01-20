@@ -23,6 +23,7 @@ export function MouseScroll() {
         style={
           visible ? { opacity: "1" } : { opacity: "0", marginTop: "-100px" }
         }
+        width={"120px"}
       />
     </Container>
   );

@@ -61,7 +61,6 @@ export const Buttons = styled.div`
 
 export const RightSide = styled.div`
   img {
-    max-width: 350px;
     display: block;
   }
 `;

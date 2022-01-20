@@ -29,6 +29,7 @@ export function ScrollToTop() {
       src={arrowUp}
       onClick={scrollToTop}
       style={visible ? { opacity: "1" } : { opacity: "0" }}
+      alt="Voltar ao topo"
     ></Button>
   );
 }

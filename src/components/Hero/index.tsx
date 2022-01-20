@@ -43,7 +43,12 @@ export function Hero() {
         </Buttons>
       </LeftSide>
       <RightSide>
-        <img src={hero} alt="Garoto segurando celular no espaço" />
+        <img
+          src={hero}
+          alt="Garoto segurando celular no espaço"
+          width={"350px"}
+          height={"350px"}
+        />
       </RightSide>
     </Container>
   );
