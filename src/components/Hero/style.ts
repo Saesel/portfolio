@@ -35,6 +35,11 @@ export const Buttons = styled.div`
     cursor: pointer;
     font-weight: 500;
 
+    a {
+      width: 48px;
+      height: 48px;
+    }
+
     :first-child {
       border: none;
       background-color: var(--primary);
