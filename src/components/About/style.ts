@@ -38,6 +38,10 @@ export const Profile = styled.div`
     font-family: "Rubik";
   }
 
+  h3 {
+    margin: 1rem 0 0 0;
+  }
+
   :hover {
     opacity: 1;
   }

@@ -5,7 +5,11 @@ export function Footer() {
     <Container>
       <p>
         Desenvolvido com <span>❤</span> por
-        <a href="https://github.com/Saesel/"> Samuel Gomes</a>.
+        <a href="https://github.com/Saesel/" target="_blank" rel="noreferrer">
+          {" "}
+          Samuel Gomes
+        </a>
+        .
       </p>
     </Container>
   );

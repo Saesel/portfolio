@@ -3,7 +3,7 @@ import { Container, Skill, SkillsContainer } from "./style";
 export function Skills() {
   return (
     <Container>
-      <h2>Conhecimentos</h2>
+      <h2 id="skills">Conhecimentos</h2>
       <SkillsContainer>
         <Skill>
           <i className="devicon-html5-plain"></i>

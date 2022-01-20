@@ -3,15 +3,15 @@ import { Container, Profile, ProfilesContainer } from "./style";
 export function About() {
   return (
     <Container>
-      <h2>Sobre mim</h2>
+      <h2 id="about">Sobre mim</h2>
       <p>
-        Me chamo Samuel, também conhecido como Saesel, tenho 21 anos, sou
-        natural do Rio Grande do Sul e sou estudante de Sistemas de Informação
-        na Universidade Federal do Rio Grande (FURG), atualmente cursando o
-        quarto semestre.
+        Me chamo Samuel, também conhecido como Saesel, tenho 22 anos, sou
+        natural do Rio Grande do Sul e estudante de Sistemas de Informação na
+        Universidade Federal do Rio Grande (FURG), atualmente cursando o quarto
+        semestre.
       </p>
       <p>
-        Sou desenvolvedor Front-End que está sempre buscando novas oportunidades
+        Sou Desenvolvedor Front-End que está sempre buscando novas oportunidades
         que me possibilitem evoluir tanto pessoalmente quanto profissionalmente,
         visando ampliar meus conhecimentos, habilidades e networkings.
       </p>

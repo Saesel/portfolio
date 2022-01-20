@@ -19,6 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     list-style: none;
     color: var(--white);
+    scroll-behavior: smooth;
   }
 
   html {

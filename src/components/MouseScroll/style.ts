@@ -8,6 +8,7 @@ export const Container = styled.div`
 
   img {
     width: 120px;
+    transition: all 400ms ease;
   }
 
   @keyframes fadeIn {

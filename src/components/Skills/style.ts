@@ -11,8 +11,8 @@ export const Container = styled.section`
 
 export const SkillsContainer = styled.ul`
   margin-top: 2rem;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, 3fr);
   align-items: center;
   gap: 4rem;
 `;
@@ -47,11 +47,12 @@ export const Skill = styled.li`
     border-radius: 0.25rem;
     text-align: center;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     background-color: var(--dark-grey);
     transition: all 400ms ease;
     opacity: 0;
     color: var(--primary);
+    font-family: "Rubik";
   }
 
   :hover span {

@@ -6,10 +6,6 @@ import { Buttons, Container, LeftSide, RightSide } from "./style";
 export function Hero() {
   const [modal, setModal] = useState(false);
 
-  function handleClick() {
-    window.open("https://www.linkedin.com/in/samuelgomes0/");
-  }
-
   function openModal() {
     setModal(!modal);
     console.log(modal);
@@ -38,7 +34,11 @@ export function Hero() {
           }
         />
         <Buttons>
-          <button onClick={handleClick}>Download CV</button>
+          <button>
+            <a href="./assets/CV_samuel.pdf" download>
+              Download CV
+            </a>
+          </button>
           <button onClick={openModal}>Entrar em Contato</button>
         </Buttons>
       </LeftSide>

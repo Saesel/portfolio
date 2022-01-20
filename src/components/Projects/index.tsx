@@ -3,7 +3,7 @@ import { Container, Project, ProjectsContainer } from "./style";
 export function Projects() {
   return (
     <Container>
-      <h2>Projetos</h2>
+      <h2 id="projects">Projetos</h2>
       <ProjectsContainer>
         <Project>
           <h3>Em breve</h3>
@@ -18,7 +18,11 @@ export function Projects() {
           <p>Logo mais um novo projeto irá aparecer por aqui!</p>
         </Project>
       </ProjectsContainer>
-      <a href="https://github.com/Saesel?tab=repositories">
+      <a
+        href="https://github.com/Saesel?tab=repositories"
+        target="_blank"
+        rel="noreferrer"
+      >
         Repositórios no GitHub
       </a>
     </Container>
