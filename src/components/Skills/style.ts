@@ -28,9 +28,9 @@ export const Skill = styled.li`
   opacity: 0.7;
   position: relative;
 
-  i {
-    font-size: 70px;
-    color: var(--primary);
+  svg {
+    width: 70px;
+    fill: var(--primary);
   }
 
   :hover {
