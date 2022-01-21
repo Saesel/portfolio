@@ -12,8 +12,9 @@ export const Container = styled.section`
 export const SkillsContainer = styled.ul`
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(5, 3fr);
+  grid-template-columns: repeat([auto-fill] 5, 3fr);
   align-items: center;
+
   gap: 4rem;
 `;
 
@@ -51,7 +52,7 @@ export const Skill = styled.li`
     background-color: var(--dark-grey);
     transition: all 400ms ease;
     opacity: 0;
-    color: var(--primary);
+    color: var(--text);
     font-family: "Rubik";
   }
 
