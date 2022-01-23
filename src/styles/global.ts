@@ -68,4 +68,10 @@ export const GlobalStyle = createGlobalStyle`
   img {
     display: block;
   }
+
+  @media (max-width: 426px) {
+    header, section {
+      max-width: 80%;
+    }
+  }
 `;

@@ -12,14 +12,17 @@ export const Container = styled.section`
 export const SkillsContainer = styled.ul`
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: repeat([auto-fill] 5, 3fr);
+  grid-template-columns: repeat(5, 3fr);
   align-items: center;
-
   gap: 4rem;
+
+  @media (max-width: 426px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 1.5rem;
+  }
 `;
 
 export const Skill = styled.li`
-  font-size: 30px;
   padding: 2rem;
   border-radius: 0.25rem;
   border: 1px solid var(--grey);
@@ -58,5 +61,11 @@ export const Skill = styled.li`
 
   :hover span {
     opacity: 1;
+  }
+
+  @media (max-width: 426px) {
+    svg {
+      width: 50px;
+    }
   }
 `;

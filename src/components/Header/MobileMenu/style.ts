@@ -1,17 +1,22 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
-  max-width: 1180px;
-  margin: 100px auto 0 auto;
+export const Container = styled.ul`
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 4;
+  transition: all 200ms ease;
 
   a {
-    margin-top: 2rem;
-    position: relative;
-    font-size: 1.1rem;
+    font-size: 2rem;
 
     :after {
       content: "";
@@ -30,18 +35,5 @@ export const Container = styled.section`
       transform: scaleX(1);
       transform-origin: left;
     }
-  }
-`;
-
-export const ProjectsContainer = styled.ul`
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 4rem;
-
-  @media (max-width: 426px) {
-    gap: 2rem;
   }
 `;

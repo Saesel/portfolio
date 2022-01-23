@@ -16,16 +16,7 @@ export function Hero() {
       <LeftSide>
         <h1>
           Olá, eu sou o <br />
-          <span
-            style={{
-              fontSize: "2rem",
-              fontWeight: "bold",
-              color: "var(--primary)",
-            }}
-          >
-            Samuel Gomes
-          </span>
-          .
+          <span className="name">Samuel Gomes</span>.
         </h1>
         <Typewriter
           options={{ delay: 75 }}

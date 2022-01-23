@@ -10,6 +10,10 @@ export const Container = styled.section`
     margin: 1rem auto;
     color: var(--text);
     font-family: "Rubik";
+
+    @media (max-width: 426px) {
+      max-width: 85%;
+    }
   }
 `;
 
@@ -20,6 +24,11 @@ export const ProfilesContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
   gap: 150px;
+
+  @media (max-width: 426px) {
+    flex-direction: column;
+    gap: 2rem;
+  }
 `;
 
 export const Profile = styled.div`

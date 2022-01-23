@@ -6,12 +6,23 @@ export const Container = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 426px) {
+    justify-content: center;
+    text-align: center;
+  }
 `;
 
 export const LeftSide = styled.div`
   h1 {
     font-weight: 400;
     font-size: 1.25rem;
+
+    span {
+      font-size: 2rem;
+      font-weight: 600;
+      color: var(--primary) !important;
+    }
   }
 
   span {
@@ -19,6 +30,12 @@ export const LeftSide = styled.div`
 
     :last-child {
       color: var(--white);
+    }
+  }
+
+  @media (max-width: 426px) {
+    h1 {
+      font-size: 1.5rem;
     }
   }
 `;
@@ -61,11 +78,19 @@ export const Buttons = styled.div`
         background-color: var(--grey);
       }
     }
+
+    @media (max-width: 426px) {
+      margin-top: 1rem;
+    }
   }
 `;
 
 export const RightSide = styled.div`
   img {
     display: block;
+  }
+
+  @media (max-width: 426px) {
+    display: none;
   }
 `;
