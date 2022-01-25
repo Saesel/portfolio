@@ -26,7 +26,7 @@ export function Hero() {
         />
         <Buttons>
           <button>
-            <a href="./assets/CV_samuel.pdf" download>
+            <a href="./assets/CV_Samuel.pdf" download>
               Download CV
             </a>
           </button>
