@@ -25,7 +25,7 @@ export function Hero() {
           }
         />
         <Buttons>
-          <a href="../../public/assets/CV_Samuel.pdf" download>
+          <a href="./CV_Samuel.pdf" target="_blank" rel="noopener noreferrer">
             <button>Download CV</button>
           </a>
           <button onClick={openModal}>Entrar em Contato</button>
