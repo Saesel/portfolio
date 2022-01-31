@@ -52,23 +52,7 @@ export const Buttons = styled.div`
     cursor: pointer;
     font-weight: 500;
 
-    a {
-      width: 48px;
-      height: 48px;
-    }
-
-    :first-child {
-      border: none;
-      background-color: var(--primary);
-      color: var(--white);
-      transition: 400ms;
-
-      :hover {
-        background-color: #5b6eae;
-      }
-    }
-
-    :last-child {
+    :nth-child(2) {
       border: 1px solid var(--grey);
       background: none;
       color: var(--white);
@@ -81,6 +65,17 @@ export const Buttons = styled.div`
 
     @media (max-width: 426px) {
       margin-top: 1rem;
+    }
+  }
+
+  a button {
+    border: none;
+    background-color: var(--primary);
+    color: var(--white);
+    transition: 400ms;
+
+    :hover {
+      background-color: #5b6eae;
     }
   }
 `;
