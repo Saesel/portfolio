@@ -11,7 +11,10 @@ export function Header() {
   }
   return (
     <Container>
-      <a href="index.html" style={{ fontSize: "2rem", fontWeight: "bold" }}>
+      <a
+        href="https://samuelgomes.vercel.app/"
+        style={{ fontSize: "2rem", fontWeight: "bold" }}
+      >
         Saesel
       </a>
       <MobileMenuIcon onClick={handleClick}>
