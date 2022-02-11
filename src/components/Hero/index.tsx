@@ -1,15 +1,14 @@
 import { useState } from "react";
 import Typewriter from "typewriter-effect";
 import hero from "./assets/img/hero.svg";
-import { Buttons, Container, LeftSide, RightSide } from "./style";
+import { Buttons, CloseButton, Container, LeftSide, RightSide } from "./style";
 import { Modal } from "./Modal";
 
 export function Hero() {
   const [modal, setModal] = useState(false);
 
-  function openModal() {
+  function handleModal() {
     setModal(!modal);
-    console.log(modal);
   }
 
   return (
@@ -29,7 +28,7 @@ export function Hero() {
           <a href="./CV_Samuel.pdf" target="_blank" rel="noopener noreferrer">
             <button>Download CV</button>
           </a>
-          <button onClick={openModal}>Entrar em Contato</button>
+          <button onClick={handleModal}>Entrar em Contato</button>
         </Buttons>
       </LeftSide>
       <RightSide>
@@ -40,7 +39,11 @@ export function Hero() {
           height={"350px"}
         />
       </RightSide>
-      {modal && <Modal />}
+      {modal && (
+        <>
+          <Modal /> <CloseButton onClick={handleModal}>✕</CloseButton>
+        </>
+      )}
     </Container>
   );
 }

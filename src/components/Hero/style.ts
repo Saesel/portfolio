@@ -89,3 +89,15 @@ export const RightSide = styled.div`
     display: none;
   }
 `;
+
+export const CloseButton = styled.div`
+  padding: 4px 10px;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  background-color: var(--dark-grey);
+  transition: 400ms;
+  z-index: 5;
+`;

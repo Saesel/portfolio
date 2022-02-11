@@ -5,7 +5,7 @@ export default function Form() {
   return (
     <Container>
       <h2>Entre em Contato</h2>
-      <FormContent>
+      <FormContent method="get" action="mailto:samuel_gomes26@hotmail.com">
         <Input
           id="name"
           labelName="Como eu posso lhe chamar?"
