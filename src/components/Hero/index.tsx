@@ -2,6 +2,7 @@ import { useState } from "react";
 import Typewriter from "typewriter-effect";
 import hero from "./assets/img/hero.svg";
 import { Buttons, Container, LeftSide, RightSide } from "./style";
+import { Modal } from "./Modal";
 
 export function Hero() {
   const [modal, setModal] = useState(false);
@@ -39,6 +40,7 @@ export function Hero() {
           height={"350px"}
         />
       </RightSide>
+      {modal && <Modal />}
     </Container>
   );
 }

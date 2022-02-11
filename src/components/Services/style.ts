@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  background-color: red;
+  max-width: 1180px;
+  margin: 0 auto;
+  text-align: center;
 `;
 
 export const ServicesContainer = styled.ul`
@@ -26,6 +28,24 @@ export const Service = styled.li`
   background-color: #212121;
   transition: 400ms;
   opacity: 0.7;
+
+  svg {
+    width: 48px;
+    fill: var(--primary);
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--white);
+  }
+
+  p {
+    font-size: 0.9rem;
+    text-align: left;
+    color: var(--text);
+  }
 
   :hover {
     transform: translateY(-8px);
